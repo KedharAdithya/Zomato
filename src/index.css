@@ -1,0 +1,262 @@
+* {
+  font-family: "poppins";
+}
+
+@font-face {
+  font-family: "poppins";
+  src: url("../public/font/poppins/Poppins-Medium.ttf");
+}
+
+.brand-name {
+  width: 130px;
+  height: 130px;
+  background-color: white;
+  color: red;
+  border-radius: 75px;
+  font-size: 4.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.main-section {
+  background-color: red;
+  height: 70vh;
+  background-image: linear-gradient(transparent, rgba(0, 0, 0, 0.182)),
+    url("../public/image/mainbg.png");
+  background-position: center;
+  background-size: 100%;
+}
+
+
+.text-navy {
+  color: #192f60 !important;
+}
+.cursor-pointer li {
+  cursor: pointer;
+}
+.rest-search-auto-complete img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+}
+
+.image-item {
+  width: 45%;
+  height: 20vh;
+}
+.quick-search-item {
+  width: 32%;
+  margin-bottom: 8px;
+}
+
+.brand {
+  background-color: white;
+  height: 40px;
+  width: 40px;
+  border-radius: 25px;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.food-item {
+  width: 120px;
+  height: 120px;
+  border-radius: 25px;
+}
+
+.pages {
+  list-style: none;
+  padding: 0;
+  display: flex;
+}
+.pages li {
+  border: 1px solid gray;
+  padding: 0.5rem 1rem;
+  margin: 0 0.5rem;
+  border-radius: 5px;
+  color: gray;
+  font-weight: bold;
+}
+.pages .active {
+  border: 1px solid white;
+  color: white;
+  background-color: gray;
+}
+
+/* search Page */
+.bg-danger {
+  background-color: rgb(192, 8, 8) !important;
+}
+.nav-blue {
+  color: #192f60;
+}
+.bg-black {
+  background-color: black;
+}
+.brand-logo {
+  height: 4rem;
+  width: 4rem;
+  border-radius: 2.5rem;
+  font-size: 2.5rem;
+  margin-left: 8rem;
+}
+.input-1 {
+  height: 1.1rem !important;
+  width: 1.1rem !important;
+  margin-right: 1rem !important;
+  cursor: pointer;
+}
+.label-1 {
+  font-size: 1.1rem;
+  cursor: pointer;
+}
+.filter-height {
+  height: 45rem;
+  border-radius: 8px;
+}
+.img-style {
+  height: 7rem;
+  width: 8rem;
+  border-radius: 1rem;
+}
+
+.card input,
+.card label,
+.card option {
+  cursor: pointer;
+}
+.card label::selection {
+  color: none;
+  background: none;
+}
+
+.card-one {
+  height: 18.5rem;
+}
+.quick-search-item {
+  border-radius: 1rem;
+  cursor: pointer !important;
+}
+
+.brand-logo {
+  height: 4rem;
+  width: 4rem;
+  border-radius: 2.5rem;
+  font-size: 2.5rem;
+  margin-left: 8rem;
+}
+.restaurant-image {
+  display: flex;
+  justify-content: center;
+  height: 55vh;
+  overflow: hidden;
+}
+
+.restaurant-image img {
+  height: 150%;
+  width: 100%;
+}
+.btn-gallery {
+  top: 85%;
+  left: 78%;
+  background: rgba(0, 0, 0, 0.303);
+}
+.filter-food-items {
+  cursor: pointer;
+  
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) {
+  .brand-name {
+    width: 100px;
+    height: 100px;
+    font-size: 3.5rem;
+  }
+  .search {
+    width: 100% !important;
+    flex-direction: column;
+    align-items: center;
+  }
+  .form-control,
+  .input-group {
+    width: 80% !important;
+  }
+
+  .main-section {
+    background-color: red;
+    height: auto;
+    padding-bottom: 2rem;
+    background-size: cover;
+  }
+  .quick-search-item {
+    width: 100%;
+    margin-bottom: 8px;
+  }
+
+  .suggestion {
+    z-index: 1 !important;
+  }
+}
+
+.suggestion-list {
+  cursor: pointer !important;
+}
+
+.suggestion-list:hover {
+  background: rgb(239, 239, 239);
+}
+
+.restaurant-suggestion img {
+  height: 2.7rem;
+  width: 2.7rem;
+  border-radius: 1.5rem;
+}
+.restaurant-gallery {
+  border-radius: 10px;
+}
+
+.menu-food-item {
+  height: 6rem;
+  width: 6rem;
+  border-radius: 6px;
+  background-color: #292c40;
+  position: relative;
+  box-shadow: 5px 10px 2vh gray;
+}
+.menu-food-item img {
+  width: 100%;
+  height: 100%;
+  border-radius: 6px;
+}
+
+.menu-food-item button {
+  position: absolute;
+  width: 4rem;
+  top: 80%;
+  left: 17%;
+}
+
+.menu-food-item .order-item-count {
+  position: absolute;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  bottom: -20%;
+}
+.order-item-count span {
+  background: white;
+  padding: 1px 6px;
+  border: 1px solid gray;
+  cursor: pointer;
+}
+.order-item-count span::selection {
+  color: none;
+  background: none;
+}
